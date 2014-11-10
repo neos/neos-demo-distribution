@@ -7,11 +7,12 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/neos": "dev-master",
-        "typo3/neos-nodetypes": "dev-master",
-        "typo3/neosdemotypo3org": "dev-master"
+        "typo3/neos": "*",
+        "typo3/neos-nodetypes": "*",
+        "typo3/neosdemotypo3org": "*",
+
+        "doctrine/migrations": "dev-master"
     },
-    "minimum-stability": "dev",
     "suggest": {
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
     },
