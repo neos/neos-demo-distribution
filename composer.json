@@ -11,13 +11,6 @@
         "typo3/neos-nodetypes": "dev-master",
         "typo3/neosdemotypo3org": "dev-master"
     },
-    "require-dev": {
-        "typo3/buildessentials": "dev-master",
-        "mikey179/vfsstream": "1.4.*",
-        "phpunit/phpunit": "4.2.*",
-        "flowpack/behat": "dev-master",
-        "typo3-ci/typo3flow": "dev-master"
-    },
     "minimum-stability": "dev",
     "suggest": {
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
