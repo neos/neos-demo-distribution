@@ -3,6 +3,7 @@
 /Build/Reports
 /Build/Resources
 /Configuration/
+!/Configuration/Routes.yaml
 /Data/
 /Packages/
 /Web/
