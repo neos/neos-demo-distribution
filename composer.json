@@ -1,6 +1,6 @@
 {
-    "name": "typo3/neos-demo-distribution",
-    "description" : "TYPO3 Neos Demo Distribution",
+    "name": "typo3/neosdemotypo3org-distribution",
+    "description" : "neos.demo.typo3.org distribution",
     "license": "GPL-3.0+",
     "config": {
         "vendor-dir": "Packages/Libraries",
@@ -9,7 +9,8 @@
     "require": {
         "typo3/neos": "dev-master",
         "typo3/neos-nodetypes": "dev-master",
-        "typo3/neosdemotypo3org": "dev-master"
+        "typo3/neosdemotypo3org": "dev-master",
+        "robertlemke/rackspacecloudfiles": "dev-master"
     },
     "minimum-stability": "dev",
     "suggest": {
