@@ -9,8 +9,10 @@
     "require": {
         "typo3/neos": "dev-master",
         "typo3/neos-nodetypes": "dev-master",
+        "typo3/neos-googleanalytics": "dev-master",
         "typo3/neosdemotypo3org": "dev-master",
-        "robertlemke/rackspacecloudfiles": "dev-master"
+        "robertlemke/rackspacecloudfiles": "dev-master",
+        "google/apiclient": "@beta"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
