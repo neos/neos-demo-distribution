@@ -19,7 +19,7 @@ if (getenv('DEPLOYMENT_PATH')) {
 }
 
 $application->setContext('Production/Neos-masterdemotypo3org');
-$application->setOption('repositoryUrl', 'git@github.com:neos/neos-demo-distribution.git');
+$application->setOption('repositoryUrl', 'https://github.com/neos/neos-demo-distribution.git');
 $application->setOption('sitePackageKey', 'TYPO3.NeosDemoTypo3Org');
 $application->setOption('keepReleases', 20);
 $application->setOption('composerCommandPath', 'php /var/www/neos-master.demo.typo3.org/home/composer.phar');

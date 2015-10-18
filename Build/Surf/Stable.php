@@ -19,7 +19,7 @@ if (getenv('DEPLOYMENT_PATH')) {
 }
 
 $application->setContext('Production/Neosdemotypo3org');
-$application->setOption('repositoryUrl', 'git@github.com:neos/neos-demo-distribution.git');
+$application->setOption('repositoryUrl', 'https://github.com/neos/neos-demo-distribution.git');
 $application->setOption('typo3.surf:gitCheckout[branch]', 'stable');
 $application->setOption('sitePackageKey', 'TYPO3.NeosDemoTypo3Org');
 $application->setOption('keepReleases', 20);
