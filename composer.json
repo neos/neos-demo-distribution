@@ -26,7 +26,8 @@
         "flowpack/neos-frontendlogin": "@dev",
         "typo3/neos-seo": "@dev",
         "typo3/neos-googleanalytics": "@dev",
-        "google/apiclient": "1.1.2 as 1.0.0"
+        "google/apiclient": "1.1.2 as 1.0.0",
+        "typo3/surf": "dev-master"
     },
     "scripts": {
         "post-update-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
